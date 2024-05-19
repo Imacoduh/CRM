@@ -14,6 +14,7 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "dynamicTriggerPathList": [],
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
@@ -31,7 +32,7 @@
     "widgetId": "18116epvcw",
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#03B365",
+    "textColor": "#fde047",
     "version": 1,
     "parentId": "4mgtuie4zd",
     "renderMode": "CANVAS",

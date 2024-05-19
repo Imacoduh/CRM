@@ -14,7 +14,10 @@
     "parentColumnSpace": 19.4375,
     "dynamicTriggerPathList": [],
     "leftColumn": 47,
-    "dynamicBindingPathList": [{"key": "boxShadow"}],
+    "dynamicBindingPathList": [
+        {"key": "boxShadow"},
+        {"key": "backgroundColor"}
+    ],
     "children": [{
         "boxShadow": "none",
         "widgetName": "Canvas1CopyCopyCopy",
@@ -27,11 +30,9 @@
         "hideCard": true,
         "minHeight": 140,
         "parentColumnSpace": 1,
+        "dynamicTriggerPathList": [],
         "leftColumn": 0,
-        "dynamicBindingPathList": [
-            {"key": "borderRadius"},
-            {"key": "accentColor"}
-        ],
+        "dynamicBindingPathList": [{"key": "accentColor"}],
         "key": "4zu9ggsmm0",
         "isDeprecated": false,
         "rightColumn": 311,
@@ -44,11 +45,11 @@
         "parentId": "6ikj8oh14c",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+        "borderRadius": "0.375rem"
     }],
     "borderWidth": "1",
     "key": "820qaf59nr",
-    "backgroundColor": "#312e81",
+    "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
     "isDeprecated": false,
     "rightColumn": 63,
     "dynamicHeight": "FIXED",
@@ -57,7 +58,7 @@
     "parentId": "5ze8c9jlkk",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "borderRadius": "1.5rem",
+    "borderRadius": "0.375rem",
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }

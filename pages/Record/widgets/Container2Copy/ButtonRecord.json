@@ -1,9 +1,10 @@
 {
     "resetFormOnClick": false,
-    "boxShadow": "none",
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, .2), 0 4px 6px -2px rgba(0, 0, 0, 1)",
     "widgetName": "ButtonRecord",
     "onClick": "{{navigateTo('Record', {}, 'SAME_WINDOW')}}",
-    "buttonColor": "#ff0055",
+    "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+    "dynamicPropertyPathList": [{"key": "boxShadow"}],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
     "searchTags": [
@@ -19,7 +20,7 @@
     "parentColumnSpace": 1.13037109375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 9,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [{"key": "buttonColor"}],
     "text": "",
     "isDisabled": false,
     "key": "g0u1anznit",

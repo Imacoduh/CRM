@@ -1,7 +1,8 @@
 {
     "boxShadow": "none",
     "widgetName": "IconButton1CopyCopy",
-    "buttonColor": "#ec4899",
+    "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+    "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "displayName": "Icon Button",
     "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
     "searchTags": [
@@ -15,7 +16,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [],
     "leftColumn": 46,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [{"key": "buttonColor"}],
     "isDisabled": false,
     "key": "hgosdrjxrv",
     "isDeprecated": false,
@@ -28,6 +29,6 @@
     "parentId": "kzs4wcnd3a",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "borderRadius": "1.5rem",
+    "borderRadius": "2rem",
     "buttonVariant": "PRIMARY"
 }
